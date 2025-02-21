@@ -1,38 +1,24 @@
+"use client";
+
 import { Link } from "@heroui/link";
 import { Snippet } from "@heroui/snippet";
 import { Code } from "@heroui/code";
 import { title, subtitle } from "@/components/primitives";
-
-export const metadata = {
-  title: "الرئيسية - منشأة البكاري",
-};
+import { Tooltip } from "@heroui/react";
 
 export default function Home() {
   return (
     <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
       <div className="inline-block max-w-xl text-center justify-center">
-        <h1 className={title()}>Make&nbsp;</h1>
-        <h2 className={title({ color: "violet" })}>beautiful&nbsp;</h2>
+        <h1 className={`${title({ color: "yellow" })} decotype-thuluth`} >&nbsp;منشأة البكارى&nbsp;</h1>
         <br />
-        <h3 className={title()}>
-          websites regardless of your design experience.
-        </h3>
         <div className={subtitle({ class: "mt-4" })}>
-          Beautiful, fast and modern React UI library.
+          <Tooltip delay={5000} placement="bottom" content="العبارة تعني أن قرية منشأة البكارى تحتفظ بتاريخها وتراثها القديم، مما يمنحها طابعًا أصيلًا ومميزًا (عبق التاريخ)، وفي نفس الوقت تعيش تطورات العصر الحديث بطريقة جميلة ومتناغمة (جمال الحاضر). كما أن أهلها يحافظون على قيمهم التقليدية وروح المحبة والتعاون فيما بينهم (روح الأصالة والتآخي).">
+            <p> تجمع بين عبق التاريخ وجمال الحاضر، حيث يعيش أهلها بروح الأصالة والتآخي. </p>
+          </Tooltip>
         </div>
       </div>
-
       <div className="flex gap-3">
-
-
-      </div>
-
-      <div className="mt-8">
-        <Snippet hideCopyButton hideSymbol variant="bordered">
-          <span>
-            Get started by editing <Code color="primary">app/page.tsx</Code>
-          </span>
-        </Snippet>
       </div>
     </section>
   );

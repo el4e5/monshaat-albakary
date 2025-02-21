@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
+:root {
+    --font-decotype-thuluth: "decotype-thuluth";
+  }
+  
+  .decotype-thuluth {
+    font-family: var(--font-decotype-thuluth);
+  }
+  

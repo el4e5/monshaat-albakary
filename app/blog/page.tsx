@@ -1,5 +1,10 @@
 import { title } from "@/components/primitives";
 
+export const metadata = {
+  title: "المدونة",
+};
+
+
 export default function BlogPage() {
   return (
     <div>

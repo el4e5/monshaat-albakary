@@ -1,69 +1,65 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Next.js + HeroUI",
-  description: "Make beautiful websites regardless of your design experience.",
+  name: "منشأة البكاري",
+  description: "منشأة البكاري هي قرية تقع في الهرم. يهدف هذا التطبيق إلى تعريف أهل القرية والزوار بأحدث الأخبار والخدمات المحلية، بما في ذلك المستشفيات، العيادات، الصنايعية، المدرسين، والمحلات." ,
   navItems: [
     {
-      label: "Home",
+      label: "الرئيسية",
       href: "/",
     },
     {
-      label: "Docs",
+      label: "المستندات",
       href: "/docs",
     },
     {
-      label: "Pricing",
+      label: "الأسعار",
       href: "/pricing",
     },
     {
-      label: "Blog",
+      label: "المدونة",
       href: "/blog",
     },
     {
-      label: "About",
+      label: "حول",
       href: "/about",
     },
   ],
   navMenuItems: [
     {
-      label: "Profile",
+      label: "الملف الشخصي",
       href: "/profile",
     },
     {
-      label: "Dashboard",
+      label: "لوحة التحكم",
       href: "/dashboard",
     },
     {
-      label: "Projects",
+      label: "المشاريع",
       href: "/projects",
     },
     {
-      label: "Team",
+      label: "الفريق",
       href: "/team",
     },
     {
-      label: "Calendar",
+      label: "التقويم",
       href: "/calendar",
     },
     {
-      label: "Settings",
+      label: "الإعدادات",
       href: "/settings",
     },
     {
-      label: "Help & Feedback",
+      label: "المساعدة والتعليقات",
       href: "/help-feedback",
     },
     {
-      label: "Logout",
+      label: "تسجيل الخروج",
       href: "/logout",
     },
   ],
   links: {
-    github: "https://github.com/heroui-inc/heroui",
-    twitter: "https://twitter.com/hero_ui",
-    docs: "https://heroui.com",
-    discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev",
+    x: "https://x.com/heroui",
   },
 };

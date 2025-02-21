@@ -2,11 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-
-:root {
-    --icon-fill-color: #000; /* اللون الافتراضي للوضع الفاتح */
-  }
-  
-  [data-theme="dark"] {
-    --icon-fill-color: #fff; /* اللون للوضع المظلم */
-  }

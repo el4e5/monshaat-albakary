@@ -1,5 +1,11 @@
 import { title } from "@/components/primitives";
 
+
+export const metadata = {
+  title: "حول",
+};
+
+
 export default function AboutPage() {
   return (
     <div>

@@ -1,5 +1,9 @@
 import { title } from "@/components/primitives";
 
+export const metadata = {
+  title: "الأسعار",
+};
+
 export default function PricingPage() {
   return (
     <div>

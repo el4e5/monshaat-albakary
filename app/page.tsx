@@ -3,7 +3,9 @@ import { Snippet } from "@heroui/snippet";
 import { Code } from "@heroui/code";
 import { title, subtitle } from "@/components/primitives";
 
-
+export const metadata = {
+  title: "الرئيسية - منشأة البكاري",
+};
 
 export default function Home() {
   return (
